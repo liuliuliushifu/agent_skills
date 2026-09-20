@@ -1,0 +1,28 @@
+{
+  "timezone": "UTC",
+  "codex": {
+    "node_bin": "",
+    "codex_js": ""
+  },
+  "remote": {
+    "sync": false,
+    "user": "",
+    "host": "",
+    "dir": ""
+  },
+  "calendar": {
+    "primary_url_template": "https://api.jiejiariapi.com/v1/holidays/{year}",
+    "secondary_url_template": "https://timor.tech/api/holiday/info/{date}",
+    "user_agent": "codex-ai-daily-report/1.0",
+    "http_timeout_sec": 8,
+    "upgrade_timeout_sec": 900,
+    "pip_package": "chinesecalendar"
+  },
+  "jira": {
+    "projects": [],
+    "done_status_names": ["已完成", "done", "closed", "resolved"]
+  },
+  "git": {
+    "allowed_repo_prefixes": []
+  }
+}

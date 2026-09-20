@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Daily Report"
+  short_description: "Generate and sync Codex daily summaries."
+  default_prompt: "Use $ai-daily-report to generate the target-date Chinese Codex daily report and sync it to Obsidian."

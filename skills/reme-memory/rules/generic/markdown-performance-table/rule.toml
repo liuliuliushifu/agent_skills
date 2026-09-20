@@ -1,0 +1,15 @@
+schema_version = 1
+name = "markdown-performance-table"
+version = "0.1"
+scope = "generic"
+priority = 20
+enabled = true
+description = "Load the generic markdown table benchmark extractor."
+
+[match]
+projects = ["*"]
+
+[outputs]
+artifact_type = "benchmark_matrix"
+benchmark_family = "generic-performance"
+extractor = "generic-performance-table"

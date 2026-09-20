@@ -1,0 +1,4 @@
+interface:
+  display_name: "Temporary Files Manager"
+  short_description: "Scan and safely clean user-owned temporary files"
+  default_prompt: "Use $temp-files-mgr to scan temporary files, clean expired entries, and show cleanup history."

@@ -1,0 +1,5 @@
+version: 1
+interface:
+  display_name: "Co-Agent"
+  short_description: "Route and hand off Codex agent work with audit logs."
+  default_prompt: "Use $co-agent to route this work to the owning Codex agent, hand it off when appropriate, and keep an auditable history."

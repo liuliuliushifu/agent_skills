@@ -1,0 +1,3 @@
+interface:
+  display_name: "Usage Mgr"
+  short_description: "Track and query local Codex token usage"
